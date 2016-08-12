@@ -10,6 +10,6 @@ Test22::test();
 //    include  __DIR__.'/'.$class.'.php';
 //}
 
-function autoload1($class) {
+function autoload1($class) { 
     include __DIR__ . '/' . $class . '.php';
 }
